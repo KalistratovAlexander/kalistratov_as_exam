@@ -1,0 +1,5 @@
+{
+  "model": "model.pkl",
+  "metrics": "test_metrics.json",
+  "report": "classification_report.csv"
+}

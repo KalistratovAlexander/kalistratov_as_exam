@@ -1,0 +1,32 @@
+[2025-06-12T15:38:24.536+0300] {processor.py:186} INFO - Started process (PID=10101) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-12T15:38:24.536+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-06-12T15:38:24.536+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:24.536+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-12T15:38:24.547+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:24.547+0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-06-12T15:38:24.548+0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-12T15:38:24.640+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:24.640+0300] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2025-06-12T15:38:24.643+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:24.643+0300] {override.py:1900} INFO - Created Permission View: can read on DAG:example_python_operator
+[2025-06-12T15:38:24.645+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:24.645+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2025-06-12T15:38:24.648+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:24.648+0300] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_python_operator
+[2025-06-12T15:38:24.650+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:24.650+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_python_operator
+[2025-06-12T15:38:24.652+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:24.652+0300] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_python_operator
+[2025-06-12T15:38:24.654+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:24.654+0300] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_python_operator
+[2025-06-12T15:38:24.654+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:24.654+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:38:24.658+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:24.658+0300] {dag.py:3262} INFO - Creating ORM DAG for example_python_operator
+[2025-06-12T15:38:24.658+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:24.658+0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-06-12T15:38:24.663+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.130 seconds
+[2025-06-12T15:58:46.668+0300] {processor.py:186} INFO - Started process (PID=28968) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-12T15:58:46.669+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-06-12T15:58:46.669+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:58:46.669+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-12T15:58:46.679+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:58:46.679+0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-06-12T15:58:46.681+0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-12T15:58:46.712+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:58:46.712+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:58:46.744+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:58:46.743+0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-06-12T15:58:46.751+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.084 seconds
+[2025-06-12T16:00:27.330+0300] {processor.py:186} INFO - Started process (PID=30185) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-12T16:00:27.332+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-06-12T16:00:27.332+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:27.332+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-12T16:00:27.342+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:27.342+0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-06-12T16:00:27.344+0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-12T16:00:27.380+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:27.379+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T16:00:27.416+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:27.415+0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-06-12T16:00:27.424+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.095 seconds

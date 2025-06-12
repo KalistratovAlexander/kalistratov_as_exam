@@ -1,0 +1,36 @@
+[2025-06-12T16:00:52.636+0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-12T16:00:52.640+0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: breast_cancer_pipeline.fetch_data manual__2025-06-12T13:00:49.718749+00:00 [queued]>
+[2025-06-12T16:00:52.641+0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: breast_cancer_pipeline.fetch_data manual__2025-06-12T13:00:49.718749+00:00 [queued]>
+[2025-06-12T16:00:52.642+0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 4
+[2025-06-12T16:00:52.646+0300] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): fetch_data> on 2025-06-12 13:00:49.718749+00:00
+[2025-06-12T16:00:52.652+0300] {standard_task_runner.py:72} INFO - Started process 30464 to run task
+[2025-06-12T16:00:52.655+0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'breast_cancer_pipeline', 'fetch_data', 'manual__2025-06-12T13:00:49.718749+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_dag.py', '--cfg-path', '/var/folders/l_/4np1fb3j1lx613c5qvnrj8xw0000gn/T/tmpe382_quv']
+[2025-06-12T16:00:52.656+0300] {standard_task_runner.py:105} INFO - Job 4: Subtask fetch_data
+[2025-06-12T16:00:52.679+0300] {task_command.py:467} INFO - Running <TaskInstance: breast_cancer_pipeline.fetch_data manual__2025-06-12T13:00:49.718749+00:00 [running]> on host macbook-pro-alexander.local
+[2025-06-12T16:00:52.700+0300] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='alerts@example.com' AIRFLOW_CTX_DAG_OWNER='data_engineer' AIRFLOW_CTX_DAG_ID='breast_cancer_pipeline' AIRFLOW_CTX_TASK_ID='fetch_data' AIRFLOW_CTX_EXECUTION_DATE='2025-06-12T13:00:49.718749+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-12T13:00:49.718749+00:00'
+[2025-06-12T16:00:52.700+0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-06-12T16:00:52.701+0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-06-12T16:00:52.701+0300] {logging_mixin.py:190} INFO - Current task name:fetch_data state:running start_date:2025-06-12 13:00:52.640362+00:00
+[2025-06-12T16:00:52.701+0300] {logging_mixin.py:190} INFO - Dag name:breast_cancer_pipeline and current dag run status:running
+[2025-06-12T16:00:52.701+0300] {taskinstance.py:731} INFO - ::endgroup::
+[2025-06-12T16:00:52.702+0300] {fetch_data.py:48} INFO - Fetching dataset via ucimlrepo (id=17)…
+[2025-06-12T16:01:00.471+0300] {fetch_data.py:68} INFO - Dataset shape: 569 rows × 31 columns
+[2025-06-12T16:01:00.477+0300] {fetch_data.py:71} INFO - First rows:
+ radius1  texture1  perimeter1  area1  smoothness1  compactness1  concavity1  concave_points1  symmetry1  fractal_dimension1  radius2  texture2  perimeter2  area2  smoothness2  compactness2  concavity2  concave_points2  symmetry2  fractal_dimension2  radius3  texture3  perimeter3  area3  smoothness3  compactness3  concavity3  concave_points3  symmetry3  fractal_dimension3 diagnosis
+   17.99     10.38       122.8 1001.0      0.11840       0.27760      0.3001          0.14710     0.2419             0.07871   1.0950    0.9053       8.589 153.40     0.006399       0.04904     0.05373          0.01587    0.03003            0.006193    25.38     17.33       184.6 2019.0       0.1622        0.6656      0.7119           0.2654     0.4601             0.11890         M
+   20.57     17.77       132.9 1326.0      0.08474       0.07864      0.0869          0.07017     0.1812             0.05667   0.5435    0.7339       3.398  74.08     0.005225       0.01308     0.01860          0.01340    0.01389            0.003532    24.99     23.41       158.8 1956.0       0.1238        0.1866      0.2416           0.1860     0.2750             0.08902         M
+   19.69     21.25       130.0 1203.0      0.10960       0.15990      0.1974          0.12790     0.2069             0.05999   0.7456    0.7869       4.585  94.03     0.006150       0.04006     0.03832          0.02058    0.02250            0.004571    23.57     25.53       152.5 1709.0       0.1444        0.4245      0.4504           0.2430     0.3613             0.08758         M
+[2025-06-12T16:01:00.480+0300] {fetch_data.py:74} INFO - Class distribution: {'B': 357, 'M': 212}
+[2025-06-12T16:01:00.480+0300] {fetch_data.py:80} INFO - No missing values detected.
+[2025-06-12T16:01:00.481+0300] {fetch_data.py:125} INFO - Saving CSV to raw/breast_cancer.csv
+[2025-06-12T16:01:00.492+0300] {fetch_data.py:128} INFO - Done — written 118.4 KB
+[2025-06-12T16:01:00.493+0300] {python.py:240} INFO - Done. Returned value was: None
+[2025-06-12T16:01:00.496+0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-06-12T16:01:00.497+0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=breast_cancer_pipeline, task_id=fetch_data, run_id=manual__2025-06-12T13:00:49.718749+00:00, execution_date=20250612T130049, start_date=20250612T130052, end_date=20250612T130100
+[2025-06-12T16:01:00.501+0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-06-12T16:01:00.501+0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-06-12T16:01:00.501+0300] {logging_mixin.py:190} INFO - Dag name:breast_cancer_pipeline queued_at:2025-06-12 13:00:49.733094+00:00
+[2025-06-12T16:01:00.501+0300] {logging_mixin.py:190} INFO - Task hostname:macbook-pro-alexander.local operator:PythonOperator
+[2025-06-12T16:01:00.545+0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-12T16:01:00.559+0300] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-06-12T16:01:00.561+0300] {local_task_job_runner.py:245} INFO - ::endgroup::

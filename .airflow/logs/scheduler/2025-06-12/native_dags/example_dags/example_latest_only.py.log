@@ -1,0 +1,29 @@
+[2025-06-12T15:38:41.599+0300] {processor.py:186} INFO - Started process (PID=10278) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-12T15:38:41.599+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-06-12T15:38:41.600+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:41.600+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-12T15:38:41.603+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-12T15:38:41.700+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:41.700+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG:latest_only
+[2025-06-12T15:38:41.704+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:41.703+0300] {override.py:1900} INFO - Created Permission View: can read on DAG:latest_only
+[2025-06-12T15:38:41.706+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:41.706+0300] {override.py:1900} INFO - Created Permission View: can edit on DAG:latest_only
+[2025-06-12T15:38:41.709+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:41.709+0300] {override.py:1900} INFO - Created Permission View: can create on DAG Run:latest_only
+[2025-06-12T15:38:41.711+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:41.710+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:latest_only
+[2025-06-12T15:38:41.712+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:41.712+0300] {override.py:1900} INFO - Created Permission View: can read on DAG Run:latest_only
+[2025-06-12T15:38:41.714+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:41.714+0300] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:latest_only
+[2025-06-12T15:38:41.714+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:41.714+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:38:41.719+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:41.719+0300] {dag.py:3262} INFO - Creating ORM DAG for latest_only
+[2025-06-12T15:38:41.721+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:41.721+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-06-12 08:00:00+00:00, run_after=2025-06-12 12:00:00+00:00
+[2025-06-12T15:38:41.727+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.130 seconds
+[2025-06-12T15:59:01.750+0300] {processor.py:186} INFO - Started process (PID=29128) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-12T15:59:01.752+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-06-12T15:59:01.752+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:01.752+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-12T15:59:01.755+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-12T15:59:01.787+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:01.787+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:59:01.793+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:01.793+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-06-12 08:00:00+00:00, run_after=2025-06-12 12:00:00+00:00
+[2025-06-12T15:59:01.799+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.050 seconds
+[2025-06-12T16:00:43.533+0300] {processor.py:186} INFO - Started process (PID=30369) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-12T16:00:43.535+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-06-12T16:00:43.535+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:43.535+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-12T16:00:43.539+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-12T16:00:43.574+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:43.574+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T16:00:43.581+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:43.581+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-06-12 08:00:00+00:00, run_after=2025-06-12 12:00:00+00:00
+[2025-06-12T16:00:43.589+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.058 seconds

@@ -1,0 +1,35 @@
+[2025-06-12T15:37:38.938+0300] {processor.py:186} INFO - Started process (PID=9566) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:37:38.938+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-06-12T15:37:38.939+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:37:38.939+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:37:38.939+0300] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:37:38.968+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.032 seconds
+[2025-06-12T15:39:19.076+0300] {processor.py:186} INFO - Started process (PID=10711) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:39:19.077+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-06-12T15:39:19.077+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:19.077+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:39:19.078+0300] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:39:19.110+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.034 seconds
+[2025-06-12T15:56:18.778+0300] {processor.py:186} INFO - Started process (PID=25846) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:56:18.778+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-06-12T15:56:18.779+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:56:18.779+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:56:18.780+0300] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:56:18.808+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.032 seconds
+[2025-06-12T15:57:57.646+0300] {processor.py:186} INFO - Started process (PID=28194) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:57:57.647+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-06-12T15:57:57.647+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:57:57.647+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:57:57.648+0300] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:57:57.676+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.032 seconds
+[2025-06-12T15:59:39.509+0300] {processor.py:186} INFO - Started process (PID=29652) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:59:39.510+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-06-12T15:59:39.511+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:39.510+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:59:39.511+0300] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T15:59:39.541+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.033 seconds
+[2025-06-12T16:00:50.565+0300] {processor.py:186} INFO - Started process (PID=30437) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T16:00:50.565+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-06-12T16:00:50.566+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:50.566+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T16:00:50.567+0300] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T16:00:50.596+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.033 seconds
+[2025-06-12T16:02:21.906+0300] {processor.py:186} INFO - Started process (PID=31489) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T16:02:21.906+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-06-12T16:02:21.907+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:02:21.907+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T16:02:21.908+0300] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-06-12T16:02:21.939+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.034 seconds

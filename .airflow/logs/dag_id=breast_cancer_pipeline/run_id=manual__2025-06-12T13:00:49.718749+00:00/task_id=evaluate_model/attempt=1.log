@@ -1,0 +1,31 @@
+[2025-06-12T16:01:18.067+0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-12T16:01:18.071+0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: breast_cancer_pipeline.evaluate_model manual__2025-06-12T13:00:49.718749+00:00 [queued]>
+[2025-06-12T16:01:18.074+0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: breast_cancer_pipeline.evaluate_model manual__2025-06-12T13:00:49.718749+00:00 [queued]>
+[2025-06-12T16:01:18.074+0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 3
+[2025-06-12T16:01:18.080+0300] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): evaluate_model> on 2025-06-12 13:00:49.718749+00:00
+[2025-06-12T16:01:18.085+0300] {standard_task_runner.py:72} INFO - Started process 30790 to run task
+[2025-06-12T16:01:18.090+0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'breast_cancer_pipeline', 'evaluate_model', 'manual__2025-06-12T13:00:49.718749+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_dag.py', '--cfg-path', '/var/folders/l_/4np1fb3j1lx613c5qvnrj8xw0000gn/T/tmpm8t9bh50']
+[2025-06-12T16:01:18.092+0300] {standard_task_runner.py:105} INFO - Job 8: Subtask evaluate_model
+[2025-06-12T16:01:18.116+0300] {task_command.py:467} INFO - Running <TaskInstance: breast_cancer_pipeline.evaluate_model manual__2025-06-12T13:00:49.718749+00:00 [running]> on host macbook-pro-alexander.local
+[2025-06-12T16:01:18.136+0300] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='alerts@example.com' AIRFLOW_CTX_DAG_OWNER='data_engineer' AIRFLOW_CTX_DAG_ID='breast_cancer_pipeline' AIRFLOW_CTX_TASK_ID='evaluate_model' AIRFLOW_CTX_EXECUTION_DATE='2025-06-12T13:00:49.718749+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-12T13:00:49.718749+00:00'
+[2025-06-12T16:01:18.137+0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-06-12T16:01:18.137+0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-06-12T16:01:18.137+0300] {logging_mixin.py:190} INFO - Current task name:evaluate_model state:running start_date:2025-06-12 13:01:18.072190+00:00
+[2025-06-12T16:01:18.138+0300] {logging_mixin.py:190} INFO - Dag name:breast_cancer_pipeline and current dag run status:running
+[2025-06-12T16:01:18.138+0300] {taskinstance.py:731} INFO - ::endgroup::
+[2025-06-12T16:01:18.139+0300] {evaluate_model.py:135} INFO - Loading model from artifacts/model.pkl
+[2025-06-12T16:01:18.141+0300] {evaluate_model.py:138} INFO - Loading test set from processed/test.parquet
+[2025-06-12T16:01:18.223+0300] {evaluate_model.py:141} INFO - Predicting …
+[2025-06-12T16:01:18.228+0300] {evaluate_model.py:150} INFO - Test metrics — Acc: 1.000  Prec: 1.000  Rec: 1.000  F1: 1.000
+[2025-06-12T16:01:18.229+0300] {evaluate_model.py:158} INFO - Metrics JSON written to artifacts/test_metrics.json
+[2025-06-12T16:01:18.234+0300] {evaluate_model.py:164} INFO - Classification report CSV saved to artifacts/classification_report.csv
+[2025-06-12T16:01:18.235+0300] {python.py:240} INFO - Done. Returned value was: None
+[2025-06-12T16:01:18.238+0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-06-12T16:01:18.238+0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=breast_cancer_pipeline, task_id=evaluate_model, run_id=manual__2025-06-12T13:00:49.718749+00:00, execution_date=20250612T130049, start_date=20250612T130118, end_date=20250612T130118
+[2025-06-12T16:01:18.241+0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-06-12T16:01:18.241+0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-06-12T16:01:18.241+0300] {logging_mixin.py:190} INFO - Dag name:breast_cancer_pipeline queued_at:2025-06-12 13:00:49.733094+00:00
+[2025-06-12T16:01:18.241+0300] {logging_mixin.py:190} INFO - Task hostname:macbook-pro-alexander.local operator:PythonOperator
+[2025-06-12T16:01:18.278+0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-12T16:01:18.287+0300] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-06-12T16:01:18.288+0300] {local_task_job_runner.py:245} INFO - ::endgroup::

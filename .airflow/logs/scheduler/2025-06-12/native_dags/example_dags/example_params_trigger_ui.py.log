@@ -1,0 +1,29 @@
+[2025-06-12T15:38:31.950+0300] {processor.py:186} INFO - Started process (PID=10168) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-12T15:38:31.950+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-06-12T15:38:31.951+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:31.951+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-12T15:38:31.969+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-12T15:38:32.138+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:32.138+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2025-06-12T15:38:32.141+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:32.141+0300] {override.py:1900} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2025-06-12T15:38:32.143+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:32.143+0300] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2025-06-12T15:38:32.146+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:32.146+0300] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_params_trigger_ui
+[2025-06-12T15:38:32.148+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:32.148+0300] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_params_trigger_ui
+[2025-06-12T15:38:32.150+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:32.150+0300] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_params_trigger_ui
+[2025-06-12T15:38:32.152+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:32.152+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_params_trigger_ui
+[2025-06-12T15:38:32.152+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:32.152+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:38:32.156+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:32.156+0300] {dag.py:3262} INFO - Creating ORM DAG for example_params_trigger_ui
+[2025-06-12T15:38:32.156+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:32.156+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-06-12T15:38:32.163+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.215 seconds
+[2025-06-12T15:58:52.558+0300] {processor.py:186} INFO - Started process (PID=29037) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-12T15:58:52.559+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-06-12T15:58:52.559+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:58:52.559+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-12T15:58:52.576+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-12T15:58:52.614+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:58:52.614+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:58:52.644+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:58:52.644+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-06-12T15:58:52.651+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.094 seconds
+[2025-06-12T16:00:34.454+0300] {processor.py:186} INFO - Started process (PID=30257) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-12T16:00:34.455+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-06-12T16:00:34.456+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:34.455+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-12T16:00:34.473+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-12T16:00:34.516+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:34.515+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T16:00:34.558+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:34.558+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-06-12T16:00:34.566+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.113 seconds

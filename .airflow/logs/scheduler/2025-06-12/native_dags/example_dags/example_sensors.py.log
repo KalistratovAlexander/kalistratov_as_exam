@@ -1,0 +1,30 @@
+[2025-06-12T15:38:21.006+0300] {processor.py:186} INFO - Started process (PID=10054) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T15:38:21.007+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-12T15:38:21.007+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:21.007+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T15:38:21.014+0300] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T15:38:21.047+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:21.047+0300] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-06-12T15:38:21.116+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:21.116+0300] {override.py:1900} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-06-12T15:38:21.119+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:21.119+0300] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-06-12T15:38:21.121+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:21.121+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-06-12T15:38:21.125+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:21.125+0300] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2025-06-12T15:38:21.127+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:21.127+0300] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2025-06-12T15:38:21.129+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:21.129+0300] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2025-06-12T15:38:21.131+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:21.131+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2025-06-12T15:38:21.131+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:21.131+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:38:21.135+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:21.135+0300] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2025-06-12T15:38:21.135+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:21.135+0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-12T15:38:21.141+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.137 seconds
+[2025-06-12T15:58:42.516+0300] {processor.py:186} INFO - Started process (PID=28924) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T15:58:42.517+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-12T15:58:42.517+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:58:42.517+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T15:58:42.523+0300] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T15:58:42.842+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:58:42.842+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:58:42.846+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:58:42.846+0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-12T15:58:42.853+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.339 seconds
+[2025-06-12T16:00:23.153+0300] {processor.py:186} INFO - Started process (PID=30139) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T16:00:23.154+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-12T16:00:23.154+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:23.154+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T16:00:23.161+0300] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-12T16:00:23.493+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:23.492+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T16:00:23.496+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:23.496+0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-12T16:00:23.503+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.351 seconds

@@ -1,0 +1,29 @@
+[2025-06-12T15:39:01.475+0300] {processor.py:186} INFO - Started process (PID=10497) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T15:39:01.475+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-12T15:39:01.476+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:01.476+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T15:39:01.481+0300] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T15:39:01.579+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:01.579+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_complex
+[2025-06-12T15:39:01.583+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:01.583+0300] {override.py:1900} INFO - Created Permission View: can read on DAG:example_complex
+[2025-06-12T15:39:01.585+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:01.585+0300] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_complex
+[2025-06-12T15:39:01.588+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:01.588+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2025-06-12T15:39:01.596+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:01.596+0300] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_complex
+[2025-06-12T15:39:01.600+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:01.600+0300] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_complex
+[2025-06-12T15:39:01.605+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:01.605+0300] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2025-06-12T15:39:01.605+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:01.605+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:39:01.610+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:01.610+0300] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2025-06-12T15:39:01.610+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:01.610+0300] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-12T15:39:01.617+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.143 seconds
+[2025-06-12T15:59:21.510+0300] {processor.py:186} INFO - Started process (PID=29463) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T15:59:21.511+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-12T15:59:21.511+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:21.511+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T15:59:21.516+0300] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T15:59:21.555+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:21.555+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:59:21.558+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:21.558+0300] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-12T15:59:21.565+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.056 seconds
+[2025-06-12T16:02:03.517+0300] {processor.py:186} INFO - Started process (PID=31303) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T16:02:03.517+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-12T16:02:03.518+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:02:03.518+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T16:02:03.523+0300] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-12T16:02:03.560+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:02:03.560+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T16:02:03.564+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:02:03.564+0300] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-12T16:02:03.570+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds

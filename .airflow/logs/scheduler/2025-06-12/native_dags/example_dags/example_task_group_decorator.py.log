@@ -1,0 +1,50 @@
+[2025-06-12T15:38:04.830+0300] {processor.py:186} INFO - Started process (PID=9866) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T15:38:04.831+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-06-12T15:38:04.831+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:04.831+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T15:38:04.848+0300] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T15:38:04.944+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:04.943+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_task_group_decorator
+[2025-06-12T15:38:04.947+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:04.947+0300] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_task_group_decorator
+[2025-06-12T15:38:04.950+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:04.949+0300] {override.py:1900} INFO - Created Permission View: can read on DAG:example_task_group_decorator
+[2025-06-12T15:38:04.952+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:04.952+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_task_group_decorator
+[2025-06-12T15:38:04.954+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:04.954+0300] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_task_group_decorator
+[2025-06-12T15:38:04.956+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:04.956+0300] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_task_group_decorator
+[2025-06-12T15:38:04.958+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:04.958+0300] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_task_group_decorator
+[2025-06-12T15:38:04.958+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:04.958+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:38:04.962+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:04.962+0300] {dag.py:3262} INFO - Creating ORM DAG for example_task_group_decorator
+[2025-06-12T15:38:04.962+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:38:04.962+0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-06-12T15:38:04.969+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.140 seconds
+[2025-06-12T15:56:48.514+0300] {processor.py:186} INFO - Started process (PID=26190) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T15:56:48.516+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-06-12T15:56:48.516+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:56:48.516+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T15:56:48.536+0300] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T15:56:48.576+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:56:48.576+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:56:48.613+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:56:48.613+0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-06-12T15:56:48.623+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.110 seconds
+[2025-06-12T15:58:26.993+0300] {processor.py:186} INFO - Started process (PID=28743) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T15:58:26.995+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-06-12T15:58:26.995+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:58:26.995+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T15:58:27.012+0300] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T15:58:27.045+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:58:27.045+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:58:27.075+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:58:27.074+0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-06-12T15:58:27.081+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.089 seconds
+[2025-06-12T16:00:07.973+0300] {processor.py:186} INFO - Started process (PID=29962) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T16:00:07.974+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-06-12T16:00:07.975+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:07.975+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T16:00:07.993+0300] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T16:00:08.026+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:08.026+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T16:00:08.057+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:00:08.057+0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-06-12T16:00:08.064+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.092 seconds
+[2025-06-12T16:01:37.838+0300] {processor.py:186} INFO - Started process (PID=31009) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T16:01:37.840+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-06-12T16:01:37.840+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:01:37.840+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T16:01:37.860+0300] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T16:01:37.895+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:01:37.895+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T16:01:37.926+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:01:37.926+0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-06-12T16:01:37.933+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.096 seconds
+[2025-06-12T16:02:48.089+0300] {processor.py:186} INFO - Started process (PID=31781) to work on /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T16:02:48.090+0300] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-06-12T16:02:48.090+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:02:48.090+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T16:02:48.107+0300] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-06-12T16:02:48.143+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:02:48.143+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T16:02:48.175+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:02:48.175+0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-06-12T16:02:48.182+0300] {processor.py:208} INFO - Processing /opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.094 seconds

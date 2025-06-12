@@ -1,0 +1,39 @@
+[2025-06-12T15:39:17.257+0300] {processor.py:186} INFO - Started process (PID=10683) to work on /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py
+[2025-06-12T15:39:17.258+0300] {processor.py:914} INFO - Processing file /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py for tasks to queue
+[2025-06-12T15:39:17.258+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:17.258+0300] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py
+[2025-06-12T15:39:17.269+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:17.268+0300] {dagbag.py:387} ERROR - Failed to import: /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/bc_pipeline/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py", line 30, in <module>
+    from etl import (
+  File "/Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/etl/fetch_data.py", line 31, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-06-12T15:39:17.269+0300] {processor.py:927} WARNING - No viable dags retrieved from /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py
+[2025-06-12T15:39:17.301+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:39:17.301+0300] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-06-12T15:39:17.308+0300] {processor.py:208} INFO - Processing /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py took 0.052 seconds
+[2025-06-12T15:59:36.301+0300] {processor.py:186} INFO - Started process (PID=29619) to work on /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py
+[2025-06-12T15:59:36.302+0300] {processor.py:914} INFO - Processing file /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py for tasks to queue
+[2025-06-12T15:59:36.302+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:36.302+0300] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py
+[2025-06-12T15:59:37.419+0300] {processor.py:925} INFO - DAG(s) 'breast_cancer_pipeline' retrieved from /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py
+[2025-06-12T15:59:37.536+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:37.536+0300] {override.py:1900} INFO - Created Permission View: can read on DAG:breast_cancer_pipeline
+[2025-06-12T15:59:37.540+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:37.539+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG:breast_cancer_pipeline
+[2025-06-12T15:59:37.542+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:37.542+0300] {override.py:1900} INFO - Created Permission View: can edit on DAG:breast_cancer_pipeline
+[2025-06-12T15:59:37.546+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:37.546+0300] {override.py:1900} INFO - Created Permission View: can read on DAG Run:breast_cancer_pipeline
+[2025-06-12T15:59:37.549+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:37.549+0300] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:breast_cancer_pipeline
+[2025-06-12T15:59:37.551+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:37.551+0300] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:breast_cancer_pipeline
+[2025-06-12T15:59:37.554+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:37.553+0300] {override.py:1900} INFO - Created Permission View: can create on DAG Run:breast_cancer_pipeline
+[2025-06-12T15:59:37.554+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:37.554+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T15:59:37.558+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:37.558+0300] {dag.py:3262} INFO - Creating ORM DAG for breast_cancer_pipeline
+[2025-06-12T15:59:37.558+0300] {logging_mixin.py:190} INFO - [2025-06-12T15:59:37.558+0300] {dag.py:4180} INFO - Setting next_dagrun for breast_cancer_pipeline to None, run_after=None
+[2025-06-12T15:59:37.566+0300] {processor.py:208} INFO - Processing /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py took 1.266 seconds
+[2025-06-12T16:02:19.923+0300] {processor.py:186} INFO - Started process (PID=31467) to work on /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py
+[2025-06-12T16:02:19.924+0300] {processor.py:914} INFO - Processing file /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py for tasks to queue
+[2025-06-12T16:02:19.925+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:02:19.924+0300] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py
+[2025-06-12T16:02:20.939+0300] {processor.py:925} INFO - DAG(s) 'breast_cancer_pipeline' retrieved from /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py
+[2025-06-12T16:02:20.971+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:02:20.970+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-12T16:02:20.975+0300] {logging_mixin.py:190} INFO - [2025-06-12T16:02:20.975+0300] {dag.py:4180} INFO - Setting next_dagrun for breast_cancer_pipeline to None, run_after=None
+[2025-06-12T16:02:20.981+0300] {processor.py:208} INFO - Processing /Users/kalistratov/Documents/PYTHON PROJECTS/EDUCATION PROJECTS/MIPT/DI/exam/dags/pipeline_dag.py took 1.059 seconds
